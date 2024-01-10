@@ -1,1 +1,50 @@
+Che cosa sono i Big Data?
 
+I big data sono dati di grandi dimensioni, raccolti ed elaborati  tramite vari non che complessi sistemi informatici, sono caratterizzate da: 
+Volume -> quantità massiccia di dati generati e accumulati da diverse fonti.
+Velocità -> Questa caratteristica si riferisce alla frequenza con cui i dati vengono generati, raccolti e trasmessi.
+Varietà ->  I dati del big data possono essere di diversi tipi e formati, tra cui testo, immagini, video.
+Veridicità -> Questa caratteristica si riferisce alla fiducia nella qualità dei dati.
+Valore -> Fa riferimento all'estrazione di informazioni significative dalla grande mola dati.
+(opzionale: L'analisi dei big data può rivelare tendenze, modelli, insight e conoscenze utili per le decisioni aziendali, la ricerca scientifica, la gestione delle risorse e altro ancora.)
+
+
+Quali sono i pilastri su cui si basa la sicurezza informatica?
+
+Integrità -> La integrità riguarda l'assicurarsi che i dati non siano stati alterati o danneggiati in modo non autorizzato durante la loro trasmissione o archiviazione. Questo viene spesso ottenuto attraverso firme digitali e hash crittografici per verificare l'integrità dei dati.
+Disponibilità -> La disponibilità si riferisce alla garanzia che i sistemi e i dati siano disponibili e accessibili quando necessario. Questo include la protezione contro attacchi di tipo DoS (Denial of Service) che potrebbero rendere inaccessibili i servizi online.
+Autenticazione ->  L'autenticazione è il processo di verifica dell'identità di un utente o di un sistema. I sistemi di autenticazione includono l'uso di password, PIN, biometria e token per assicurare che solo utenti autorizzati possano accedere a determinate risorse.
+Confidenzialità -> Le informazioni sono accessibili a soggetti solo autorizzati, i dati in questione vengono protetti tramite la cifratura e l'implementazione di controlli di accesso
+
+
+Che cos'è un vettore d'attacco?
+
+Strumento mediante il quale si effettua un cyber attacco
+Tipi di attacco:
+Social Engineering -> Con l'utilizzo di tecniche di manipolazione, le persone rilasciano informazioni sensibili.
+tipi:
+Furto d'identità
+Attacchi fisici
+Phishing
+Malware -> software ostili capaci di apportare danni al sistema informatico.
+
+
+Come ci si può difendere da un attacco di social engineering?
+si
+Quali sono le azioni che possono aiutare l'utente del cyberspazio a difendersi dalla maggior parte dei malware?
+
+Possono adottare diverse strategie come:
+Uso VPN -> Modo di accesso in remoto, una VPN consente agli utenti di navigare in modo anonimo e sicuro su Internet, nascondendo la loro posizione geografica e proteggendo i dati sensibili dalla sorveglianza o dall'intercettazione da parte di terze parti.
+Proteggere la propria rete LAN domestica concentrando la protezione in quel punto di accesso
+Effettuare i vari aggiornamenti di sistema
+Scaricare software specializzati nella difesa contro malware
+
+Come è possibile diventare uno specialista di sicurezza informatica?
+
+
+Quali sono i tre diversi approcci per il pentest?
+Il pentest analizza in forma specifica una componente del sistema in forma approfondita.
+Ha tre possibili approcci di pentest:
+White -> Vengono fornite tutte le informazioni di sistema, avere una visione completa facilita il compito di cercare vulnerabilità
+Black -> gli hacker etici non hanno alcuna informazione sul sistema, e procedono a tentativi facendo uso di tecniche di scansione automatica.
+Gray box -> Vengono fornite informazioni parziali sul sistema come codice sorgente oppure i dettagli della configurazione del sistema.
