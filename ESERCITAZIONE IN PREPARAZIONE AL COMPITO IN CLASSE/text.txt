@@ -20,7 +20,14 @@ Un client effettua una request, il server istanzia e carica la Servlet (se non g
        Azioni
 Le azioni generate dalle richieste client sono conseguenze al metodo doGet() doPost().
       Ciclo di Vita: il ciclo di vita si riduce a le funzioni:
-init(): effettua operazioni necessarie per l’inizializzazione del Servlet, e il corretto funzionamento, se durante l’inizializzazione si verifica un errore la Servlet non verrà ressa disponibile
-rest():
-destroy():
+init(): effettua operazioni necessarie per l’inizializzazione del Servlet, e il corretto funzionamento, se durante l’inizializzazione si verifica un errore la Servlet non verrà resa disponibile per l’invocazione e verrà cancellata con il metodo destroy(), il server procederà con la nuova istanziazione.
+service(): Viene mandato in esecuzione al momento di una chiamata post o get, il server offre una gestione tramite thread del metodo service() per ogni richiesta client.
+destroy(): rilascia le risorse della servlet e scarica il codice dal servlet
  
+
+
+
+
+    Svantaggio
+
+
