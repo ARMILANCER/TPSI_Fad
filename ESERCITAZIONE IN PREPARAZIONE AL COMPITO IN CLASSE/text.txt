@@ -1,0 +1,26 @@
+Introduzione alle Web Application
+Svolgere, una breve relazione con le caratteristiche principali, tutti i componenti studiati inerente alle WEB APP (completa)
+
+Nella programmazione web la progettazione di un applicativo si basa su un modello MVC, separa la progettazione web in tre parti, questo approccio permette una migliore organizzazione del codice, facilità la manutenzione, e il testing.
+
+Model: rappresenta la logica applicativa di persistenza e manipolazione dei dati.
+View: tramite delle componenti visive interfaccia l’utente ai dati di sistema.
+Controller: elabora le richieste e coordina la collaborazione tra Model e View in modo di soddisfare le richieste.
+
+La Web application sono applicazioni software eseguite su un server web e costituita da un insieme di componenti tali come: pagine HTML e jsp, JServlet, JBean,  classi Java e altri componenti contenuti all’interno di un container il quale lavora sulla assegnazione di una JVM.
+
+Descrizione componenti Affrontate
+JSP(Java server page): è un applicativo usato per la creazione di pagine Web HTML lato server, e rappresentano un'estensione delle Servlet caratterizzate da un misto di codice statico(HTML) e dinamico(java)
+HTML(Hyper Text Markup Language):  è un linguaggio di contrassegno formato da tag impiegati per disporre e differenziare gli elementi all’interno di una pagina web.
+Java Servlet: sono classi Java eseguite in Servlet Container ed esposte come risorse web all’esterno, queste risorse elaborano le richieste client agendo in modalità request/response 
+       Funzionalità
+Dato che è basata prevalentemente su Java può usufruire delle Java API(Application Programming Interface) contenente funzionalità di accesso al DB e/o di interfaccia
+       Funzionamento
+Un client effettua una request, il server istanzia e carica la Servlet (se non già istanziata) avviando un thread associato al nuovo client, la servlet costruisce la response e la inoltra al client.
+       Azioni
+Le azioni generate dalle richieste client sono conseguenze al metodo doGet() doPost().
+      Ciclo di Vita: il ciclo di vita si riduce a le funzioni:
+init(): effettua operazioni necessarie per l’inizializzazione del Servlet, e il corretto funzionamento, se durante l’inizializzazione si verifica un errore la Servlet non verrà ressa disponibile
+rest():
+destroy():
+ 
